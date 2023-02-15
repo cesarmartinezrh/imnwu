@@ -77,7 +77,7 @@ section #slogan {
   white-space: nowrap;
   transform: translateY(-200px);
   top: 60vh;
-  margin-left: -25vw;
+  margin-left: -18vw;
 }
 
 section #slogan2 {
@@ -155,7 +155,7 @@ background: linear-gradient(90deg, rgba(241,61,102,1) 0%, rgba(241,61,102,1) 16%
 /* AHORA HAREMOS EL RESPONSIVO */
 @media (max-width: 991px) {
   .sec {
-    padding: 60px;
+    padding: 20px;
   }
   .sec p {
     font-size: 1em;
@@ -184,10 +184,23 @@ background: linear-gradient(90deg, rgba(241,61,102,1) 0%, rgba(241,61,102,1) 16%
   }
   #cesar,
   #caro {
-    height: 300px;
+    height: 150px;
+    width: 150px;
   }
 
   .posts {
     flex-direction: column;
   }
+section #slogan {
+  position: absolute;
+  color: #110011;
+  font-size: 6vmax;
+  text-align: center;
+  font-family: "Rancho", sans-serif;
+  line-height: 0.8em;
+  white-space: nowrap;
+  transform: translateY(-200px);
+  top: 60vh;
+  margin-left: -25vw;
+}
 }
